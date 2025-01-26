@@ -1,0 +1,10 @@
+^B:\SOFTWARE\GITHUB\SPEEDRACER\BUILD\CMAKEFILES\904931CB3585EB7CB32619A18F531D37\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SB:/Software/Github/SpeedRacer -BB:/Software/Github/SpeedRacer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file B:/Software/Github/SpeedRacer/build/SpeedRacer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

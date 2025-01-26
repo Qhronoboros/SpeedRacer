@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="B:\Software\Github\SpeedRacer\build\CMakeFiles\904931cb3585eb7cb32619a18f531d37\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F84899FA-0087-3618-93C3-7113921A5E98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
