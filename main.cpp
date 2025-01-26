@@ -171,7 +171,8 @@ int main(int, char**){
     // Get seed for randomizer
     srand((unsigned int)time(nullptr));
 
-    cout << "Use WASD to move around" << endl;
+    cout << "Use A, W, or D to move left, up, or right" << endl;
+    cout << "Use S to slow down" << endl;
 
     // * Initialize Player //
     sf::Texture& playerTexture = loadTexture("motorcycle.png");
