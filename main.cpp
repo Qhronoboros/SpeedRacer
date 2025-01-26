@@ -171,6 +171,7 @@ int main(int, char**){
     // Get seed for randomizer
     srand((unsigned int)time(nullptr));
 
+    cout << "Use WASD to move around" << endl;
 
     // * Initialize Player //
     sf::Texture& playerTexture = loadTexture("motorcycle.png");
@@ -365,13 +366,13 @@ int main(int, char**){
                 if (score >= winCondition)
                 {
                     text.setString("You Win!");
-                    additionalText = "Your score reached past 1000";
+                    additionalText = "Your score reached past " + to_string((int)winCondition);
                     sprite = panelSpriteList.front();
                 }
                 else
                 {
                     text.setString("You Lose!");
-                    additionalText = "Your score didn't reach past 1000";
+                    additionalText = "Your score didn't reach past " + to_string((int)winCondition);
                     sprite = panelSpriteList.back();
                 }
 
